@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+</head>
+<body>
+    <table class="table">
+        <tr class="tr">
+          <td class="td-top" colspan="2"></td>
+        </tr>
+        <tr class="tr">
+          <td class="td" colspan="2">
+            <img src="assets/img/onb4/onb4.png" /><img />
+            <h1>Bist du aktuell in Behandlung durch den Hausarzt?</h1>
+        </td>
+    </tr>
+    <tr class="tr">
+    <td class="td" colspan="2" height="30">
+        <div>
+          <mat-radio-group aria-label="Select an option">
+            <mat-radio-button color="primary" value="1">Ja</mat-radio-button>
+            <mat-radio-button color="primary"value="2">Nein</mat-radio-button>
+          </mat-radio-group>
+          
+        </div>
+       <p>{{bahandlung}}</p>
+    </td>
+    </tr>
+    <tr>
+      <td class="td-bottom">
+        <div>
+          <button mat-raised-button color="primary" class="example-button-row">
+            <a class="link-white" routerLink="/onb3">Zurück</a>
+          </button>
+        </div>
+      </td>
+    
+      <td class="td-bottom">
+        <div>
+          <button mat-raised-button color="primary" class="example-button-row">
+            <a class="link-white" routerLink="/onb5">Weiter</a>
+          </button>
+        </div>
+      </td>
+    </tr>
+    </table>
+    
+</body>
+</html>

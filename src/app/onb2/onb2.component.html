@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <title>Document</title>
+</head>
+<body>
+  <table class="table">
+    <tr class="tr">
+      <td class="td-top" colspan="2"></td>
+    </tr>
+    <tr class="tr">
+      <td class="td" colspan="2">
+        <img src="assets/img/geburtsdatum/gifts.png" /><img />
+        <h1>Geburtsdatum</h1>
+        <div>
+           
+            <mat-form-field appearance="fill">
+                <mat-label>Enter a date range</mat-label>
+                <mat-date-range-input [rangePicker]="picker">
+                  <input matStartDate placeholder="Start date">
+                  <input matEndDate placeholder="End date">
+                </mat-date-range-input>
+                <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                <mat-date-range-picker #picker></mat-date-range-picker>
+              </mat-form-field>
+        
+            </div>
+      </td>
+    </tr>
+  
+    <tr >
+      <td class = td-bottom>
+        <div>
+          <button mat-raised-button color="primary" class="example-button-row">
+            <a class="link-white" routerLink="/onb1">Zurück</a>
+          </button>
+  </div>
+  
+  
+    <td class = td-bottom> 
+        <div>  
+          <button mat-raised-button color="primary" class="example-button-row">
+            <a class="link-white" routerLink="/onb3">Weiter</a>
+          </button>
+        </div>
+      
+    </tr>
+  </table>
+</body>
+</html>

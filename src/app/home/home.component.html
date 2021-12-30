@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+  </head>
+  <body></body>
+</html>
+<table class="table">
+  <tr class="tr">
+    <td class="td">
+      <div [@fade]="stateName">
+      <h3 color="#ffffff">
+        <b
+          >Hi!<br />Herzlich willkommen im Diabetikum. <br />Wir möchten gerne
+          dich besser kennenlernen. <br />
+          Wollen wir starten?</b
+        >
+      </h3>
+    </div>
+    </td>
+  </tr>
+
+  <tr class="tr">
+    <td class="td">
+  
+  
+      <!--
+        **Toggle button**
+        <div [@fade]="stateName">
+        <p>Hello! I'm a helpful message.</p>
+      </div>
+      <button (click)="toggle()">Toggle PopOver</button>
+      -->
+
+
+
+      <div [@fade]="stateName">
+        <img src="assets/img/home/User.png" class="img" />
+      </div>
+      
+    </td>
+  </tr>
+
+  <tr class="tr">
+    <td class="td td-bottom">
+      <div [@fade]="stateName">
+        <button mat-raised-button color="primary" class="example-button-row" onclick="toggle">
+          <a class="link-white" routerLink="/onb1" >Start</a>
+        </button>
+      </div>
+    </td>
+  </tr>
+</table>
